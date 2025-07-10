@@ -1,0 +1,25 @@
+.logo{
+    font-weight: 700;
+    color: #4E47FF;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+   
+}
+.signup-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 10px 20px ;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:16px ;
+}
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: #3737ff;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
