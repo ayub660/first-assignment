@@ -1,3 +1,17 @@
+/* hearder heading button e use korete */
+.hero-wrapper{
+    background-image: url("../images/Hero-bg.png");
+    background-size: cover;
+    padding-bottom: 150px;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 .logo{
     font-weight: 700;
     color: #4E47FF;
@@ -14,12 +28,35 @@
     font-weight: 600;
     font-size:16px ;
 }
-.signup-btn:hover{
-    cursor: pointer;
-    background-color: #3737ff;
-}
+
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+ padding: 35px;
  }
+ .hero-content{
+    color: #252432;
+    margin-bottom: 25px;
+    font-size: bold;
+    margin: 0 auto;
+    text-align: center;
+ 
+ }
+.stay-btn{
+    display: inline-block;
+     padding: 12px 28px;
+     background-color: #4E47FF;
+     border-radius: 6px;
+     color: #FFFFFF;
+     border: none;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 500;
+     box box-shadow:   10px;
+
+}
+.signup-btn:hover{
+    cursor: pointer;
+    background-color: #3737ff;
+}
