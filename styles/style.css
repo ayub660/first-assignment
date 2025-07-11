@@ -60,3 +60,32 @@
     cursor: pointer;
     background-color: #3737ff;
 }
+/* action section e image */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 30px;
+}
+.action-left{
+    flex: 1;
+}
+.action-right{
+     flex: 1;
+      height: 350px;
+      background-image: url(../images/wc-mini.png);
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px;
+}
+/* button design */
+.preview-btn{
+    display: inline-block;
+    background:  #4E47FF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+     text-decoration: none;
+      font-weight: bold;
+}
